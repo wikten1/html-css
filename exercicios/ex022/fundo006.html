@@ -7,17 +7,24 @@
     <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position:  center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* shorthand -backgrouns
+             color> image> position > repeat > [size] > attachment*/
+
+             background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +35,12 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi corrupti ex perspiciatis! Officia fuga id voluptatem saepe reprehenderit? Et nemo aliquid fugit numquam nihil delectus ut quam, nesciunt at officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id magni omnis similique ab soluta tempora sapiente cum provident voluptas veritatis? Natus omnis maxime accusantium, necessitatibus voluptate voluptatum officiis quo explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero possimus quis doloremque, magnam facere iure, illum at vero quas sapiente asperiores dolorem, provident minima veritatis porro voluptates voluptate animi!</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi corrupti ex perspiciatis! Officia fuga id voluptatem saepe reprehenderit? Et nemo aliquid fugit numquam nihil delectus ut quam, nesciunt at officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id magni omnis similique ab soluta tempora sapiente cum provident voluptas veritatis? Natus omnis maxime accusantium, necessitatibus voluptate voluptatum officiis quo explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero possimus quis doloremque, magnam facere iure, illum at vero quas sapiente asperiores dolorem, provident minima veritatis porro voluptates voluptate animi!</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi corrupti ex perspiciatis! Officia fuga id voluptatem saepe reprehenderit? Et nemo aliquid fugit numquam nihil delectus ut quam, nesciunt at officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id magni omnis similique ab soluta tempora sapiente cum provident voluptas veritatis? Natus omnis maxime accusantium, necessitatibus voluptate voluptatum officiis quo explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero possimus quis doloremque, magnam facere iure, illum at vero quas sapiente asperiores dolorem, provident minima veritatis porro voluptates voluptate animi!</p>
+
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi corrupti ex perspiciatis! Officia fuga id voluptatem saepe reprehenderit? Et nemo aliquid fugit numquam nihil delectus ut quam, nesciunt at officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id magni omnis similique ab soluta tempora sapiente cum provident voluptas veritatis? Natus omnis maxime accusantium, necessitatibus voluptate voluptatum officiis quo explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero possimus quis doloremque, magnam facere iure, illum at vero quas sapiente asperiores dolorem, provident minima veritatis porro voluptates voluptate animi!</p>
     </main>
 </body>
