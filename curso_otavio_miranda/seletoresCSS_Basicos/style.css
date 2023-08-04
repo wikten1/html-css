@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*
+h1, p {
+    color: pur;
+}
+
+body div section p,
+body div section h1 {
+    color: red;
+}
+*/
+
+/*
+.color-red {color: red;}
+*/
+
+/*
+div.main-content h2.heading {
+    font-style: italic;
+    color: red;
+}
+*/
+
+/*
+
+div{
+    color: initial;
+    margin-left: 20px;
+}
+
+.pai > .filha > .filha{
+    color: red;
+}
+
+*/
+
+/*
+.pai h1+p {
+    color: red;
+}
+
+.pai p+h1 {
+    color: purple;
+}
+*/
+
+/*
+.pai h1~p{
+    color: red;
+}
+*/
+
+/*
+.pai .um~.dois {
+    color: red;
+}
+*/
+
+[meu-atributo="valor"]{
+    color: red;
+}
+
+[checked] {
+    width: 50px;
+    height: 50px;
+}
