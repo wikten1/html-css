@@ -1,0 +1,54 @@
+/*
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background: red;
+}//quando o mouse passa por cima
+*/
+
+/*
+a {
+    color: darkorange;
+}//todos os links
+
+a:link{
+    color: deeppink;
+}//links nunca visitados
+
+a:visited{
+    color: green;
+}//links visitados
+
+a:hover{
+    background: darkslateblue;
+    color: white;
+    text-decoration: none;
+}//quando o mouse está em cima
+
+a:active{
+    background: darkslategray;
+    color: white;
+    text-decoration: none;
+}//quando está sendo clicado
+*/
+
+/*
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}//modificações do imput quando ele está em foco
+
+input:disabled {
+    background-color: rebeccapurple;
+    cursor: not-allowed;
+}//modificações do imput quando ele estiver desabilitado
+
+input:enabled{
+    background-color: lightblue;
+    cursor: pointer;
+}//modificações do imput quando ele estiver habilitado
+
+*/
