@@ -60,11 +60,36 @@ div{
 }
 */
 
+/*
 [meu-atributo="valor"]{
     color: red;
-}
+}  //Seletor de atributo comum
 
 [checked] {
     width: 50px;
     height: 50px;
 }
+*/
+
+/*
+[meu-atributo~="valor3"]{
+    color: red;
+} // Seleciona um certo valor do atributo desejado
+
+[meu-atributo|="quarquercoisa-"]{
+    color: red;
+}//Seleciona um certo valor, des de que o mesmo seja seguido de um traço
+
+
+[meu-atributo^="qualquercoisa"]{
+    color: red;
+}// começa com
+
+[meu-atributo$="qualquercoisa"]{
+    color: red;
+}//termina com
+
+[meu-atributo*="l"]{
+    color: red;
+}//Contem
+*/
