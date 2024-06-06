@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hoje{
+    color: rgb(145, 4, 4);
+    font-weight: 600;
+}
+
+.amanha{
+    color: rgb(28, 28, 143);
+    font-weight: 600;
+}
