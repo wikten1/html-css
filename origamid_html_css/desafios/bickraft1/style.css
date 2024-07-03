@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body{
+    background: #f7f7f7;
+    font-family: sans-serif;
+}
+
+header{
+    display: grid;
+    gap: 50px;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+header>nav{
+    margin-top: 20px;
+}
+
+header>nav>a{
+    margin-right: 20px;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 18px 30px;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.anuncio{
+    background: #FFFFFF;
+    padding: 40px;
+    display: grid;
+}
+
+.anuncio img{
+    height: 5px;
+    position: relative;
+    top: -10px;
+    right:-440px;
+}
+
+.anuncio h2{
+    font-size: 2em;
+    text-align: right;
+    margin: 0;
+}
+
+.anuncio p{
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+}
+
+.anuncio button{
+    color: white;
+    background: #ee2211;
+    padding: 0px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    justify-self: end;
+}
+
+.foto>img{
+    max-width: 100%;
+}
+
+.subtitulo h2{
+    color: #C6C6C6;
+    font-size: 64px;
+    text-align: right;
+    padding: 40px;
+}
+
+.vantagens{
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.vantagem {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: flex-start;
+}
+
+.vantagem img{
+    padding-top: 25px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 20px 0;
+}
