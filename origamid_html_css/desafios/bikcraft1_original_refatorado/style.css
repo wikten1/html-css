@@ -83,7 +83,8 @@ p {
   font-size: 2rem;
 }
 
-.detalhe {
+.introducao::before{
+  content: "";
   width: 60px;
   height: 4px;
   background: #e21;
@@ -98,6 +99,10 @@ p {
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
+}
+
+.botao:hover{
+  background: #900;
 }
 
 .subtitulo {
@@ -120,6 +125,11 @@ p {
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
   padding: 20px;
+  border-left: 4px solid transparent;
+}
+
+.vantagens-item:hover {
+  border-color:  #e21;
 }
 
 .vantagens-item p {
